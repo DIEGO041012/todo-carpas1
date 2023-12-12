@@ -1,0 +1,78 @@
+body {
+    font-family: Termina, sans-serif;
+    color: #111;
+    background: #ffffff;
+    overflow-x: hidden;
+  }
+  
+  section {
+    padding: 5vw;
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/geomembranas5.jpg');
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .credit {
+    text-align: center;
+    z-index: 999;
+    font-size: 0.8rem;
+  }
+  .credit a {
+    color: inherit;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-weight: 800;
+    margin: 2rem auto;
+    font-size: clamp(3vw, 2rem, 4rem);
+    text-align: center;
+    z-index: 999;
+    max-width: 700px;
+    pointer-events: none;
+    display: grid;
+    place-items: center;
+  }
+  
+  .gallery {
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: visible;
+    max-width: auto;
+    width: 800vh;
+  }
+  
+  .image {
+    width: 30vw;
+    filter: saturate(0);
+    padding: 1rem;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .image:nth-child(2n) {
+    width: 25vw;
+  }
+  
+  .image:hover {
+    z-index: 99999999999 !important;
+    filter: saturate(1);
+  }
+  
+  img {
+    transition: 0.3s ease-out;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .parrafo1{
+    text-align: center;
+  }
