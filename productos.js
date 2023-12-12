@@ -19,7 +19,7 @@ let images = gsap.utils.toArray(".image");
 images.forEach((item) => {
   gsap.to(item, {
     x: "-=" + Number(sliderWidth / 2),
-    duration: 30,
+    duration: 20,
     repeat: -1,
     ease: "none",
     modifiers: {
